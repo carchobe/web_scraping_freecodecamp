@@ -1,0 +1,7 @@
+docker-compose.yml
+web_scraping_freeCodeCamp.pdf
+README.md
+/.git
+.gitignore
+.gitattributes
+/venv

@@ -1,0 +1,10 @@
+FROM python:3.7-slim
+
+RUN mkdir /app
+
+WORKDIR /app
+
+COPY ./32req.txt 32req.txt
+COPY ./web_scraping_freeCodeCamp.ipynb web_scraping_freeCodeCamp.ipynb
+
+RUN pip install -r 32req.txt
